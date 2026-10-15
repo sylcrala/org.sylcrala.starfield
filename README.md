@@ -19,7 +19,7 @@ To install this wallpaper plugin, copy the entire directory ('org.sylcrala.starf
 You can also just run the following commands in your terminal instead
 ```
 cd ~/.local/share/plasma/wallpapers/    
-git clone https://www.github.com/sylcrala/org.sylcrala.starfield .
+git clone https://www.github.com/sylcrala/org.sylcrala.starfield
 ```
 
 After downloading the repository and ensuring it's located in the wallpapers directory, run the following command to restart plasmashell and load the wallpaper:
