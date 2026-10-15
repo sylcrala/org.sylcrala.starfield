@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="backgroundColor" type="Color">
+      <label>The color of the background</label>
+      <default>#000000</default>
+    </entry>
+
+    <entry name="starColor" type="Color">
+      <label>Color of each star on screen</label>
+      <default>#ffffff</default>
+    </entry>
+
+    <entry name="numberOfStars" type="Int">
+      <label>How many stars to render on the wallpaper at a time</label>
+      <default>350</default>
+    </entry>
+
+    <entry name="animate" type="Bool">
+      <label>Whether the stars move along the screen</label>
+      <default>true</default>
+    </entry>
+
+    <entry name="animateInterval" type="Int">
+      <label>Animation interval in milliseconds</label>
+      <default>1000</default>
+    </entry>
+
+  </group>
+
+</kcfg>
